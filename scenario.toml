@@ -3,16 +3,16 @@ image = "ghcr.io/oasislabs/agentbeats-examples-ctf-green:ctf-v1.1.0-dummy.4"
 env = {}
 
 [[participants]]
-agentbeats_id = ""
+agentbeats_id = "019ab81d-6ac8-7473-b9ea-797d2fa9958f"
 name = "red_a"
-image = ""
-env = {}
+image = "ghcr.io/oasislabs/agentbeats-examples-ctf-red-adk:ctf-v1.1.0-dummy.4"
+env = { GOOGLE_GENAI_USE_VERTEXAI = "FALSE", GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [[participants]]
-agentbeats_id = ""
+agentbeats_id = "019ab81d-6ac8-7473-b9ea-797d2fa9958f"
 name = "red_b"
-image = ""
-env = {}
+image = "ghcr.io/oasislabs/agentbeats-examples-ctf-red-adk:ctf-v1.1.0-dummy.4"
+env = { GOOGLE_GENAI_USE_VERTEXAI = "FALSE", GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
 vm_command = [
